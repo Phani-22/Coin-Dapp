@@ -1,0 +1,33 @@
+name: first_coin
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  web3dart: ^2.3.5
+  provider: ^6.0.3
+  http: ^0.13.5
+  web_socket_channel: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - build/contracts/
+  #   - images/a_dot_ham.jpeg
+
